@@ -1,11 +1,8 @@
 
-data Coord = Coord Float Float
-xOf :: Coord -> Float
-xOf (x,_) = x
-yOf :: Coord -> Float
-yOf (_,y) = y
+isInEllpise :: (Float, Float) -> (Float, Float) -> Float -> (Float, Float) -> Bool
+isInEllpise a b r x = False
 
 
-isInEllpise :: Coord -> Coord -> Float -> Coord -> Bool
-isInEllpise A B r X = False
 
+myCoord = (5,3)
+main = print myCoord
